@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+main{
+    padding: 0 20px;
+}
+
+textarea{
+    resize: none;
+}
+form{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+input[type="text"],textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 6px;
+    margin: 6px 0;
+    border: 2px solid black;
+}
+
+button, input[type="reset"]{
+    background-color: lightblue;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="reset"]:hover{
+    background-color: black;
+}
+
+@media (max-width: 1000px){
+    form{
+        width: 100%;
+    }
+    h1{
+        color: pink
+    }
+}
+
+@media (max-width: 800px){
+    h1{
+        color: powderblue;
+    }
+}
